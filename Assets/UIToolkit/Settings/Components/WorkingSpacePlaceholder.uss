@@ -1,0 +1,11 @@
+.working-space-content {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.working-space-title {
+    font-size: 26px;
+    -unity-font-style: bold;
+    color: #4A4739;
+}

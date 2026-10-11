@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/KidDetails/components/ActivityNodeCard.uss?fileID=7433441132597879392&amp;guid=9ae199d23cfd04d87a5c9d91b27826e1&amp;type=3#ActivityNodeCard"/>
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <ui:VisualElement name="activity-node-card" class="activity-node-card">
+        <ui:VisualElement name="card-header" class="card-header">
+            <ui:VisualElement name="activity-icon" class="activity-icon"/>
+            <ui:Label name="activity-name" text="Activity" class="activity-name-text"/>
+            <ui:Label name="mastery-value" text="84%" class="metric-text"/>
+            <ui:VisualElement name="support-indicator" class="support-indicator"/>
+            <ui:VisualElement name="focus-dot" class="focus-dot"/>
+            <ui:VisualElement name="expand-chevron" class="expand-chevron"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="card-expanded-content" class="card-expanded-content">
+            <ui:VisualElement name="chart-placeholder-slot" class="chart-placeholder-slot"/>
+            <ui:Label name="expanded-caption" text="Progress over time" class="expanded-caption-text"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

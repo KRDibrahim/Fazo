@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss" />
+    <Style src="project://database/Assets/UIToolkit/Settings/Components/AssistanceSettings.uss" />
+
+    <ui:VisualElement name="working-space-content" class="working-space-content">
+
+        <ui:Label text="Assistance Settings" class="panel-heading" />
+
+        <ui:VisualElement class="setting-row">
+            <ui:Label text="Assistance" class="setting-label" />
+            <ui:Toggle name="assistance-enable-toggle" value="true" class="setting-toggle" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="setting-row">
+            <ui:Label text="Time before hint" class="setting-label" />
+            <ui:VisualElement class="stepper-options">
+                <ui:Button name="hint-time-10" text="10 s" class="btn stepper-option" />
+                <ui:Button name="hint-time-20" text="20 s" class="btn stepper-option active" />
+                <ui:Button name="hint-time-60" text="60 s" class="btn stepper-option" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="setting-row">
+            <ui:Label text="Manual hint" class="setting-label" />
+            <ui:Toggle name="manual-hint-toggle" value="true" class="setting-toggle" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="lock-overlay" class="lock-overlay">
+            <ui:Button name="unlock-button" text="Unlock" class="btn role-primary lock-overlay-button" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

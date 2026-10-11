@@ -1,0 +1,37 @@
+.domain-tab-button {
+    flex-direction: row;
+    align-items: center;
+    height: 48px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-right: 10px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-color: #D9D2C2;
+}
+
+.domain-tab-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.domain-tab-label {
+    font-size: 14px;
+    color: #4A4739;
+}
+
+.domain-tab-button.active {
+    background-color: #7F77DD;
+    border-color: #534AB7;
+}
+
+.domain-tab-button.active .domain-tab-label {
+    color: #FFFFFF;
+}
+
+.domain-tab-button.active .domain-tab-icon {
+    -unity-background-image-tint-color: #FFFFFF;
+}

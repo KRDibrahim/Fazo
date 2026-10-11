@@ -1,0 +1,65 @@
+.kid-card {
+    width: 220px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 16px;
+    margin: 0 12px;
+    align-items: center;
+}
+
+/* Small icon-only button variant, distinct from the header's larger
+   .role-icon (56px) — a corner action on a card should be present but
+   quiet, not compete with the card's primary Select/Details actions. */
+.role-icon-small {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-width: 1px;
+    border-color: #D9D2C2;
+    padding: 6px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.kid-card-avatar-frame {
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+    background-color: #F0C79A;
+    border-width: 3px;
+    border-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 14px;
+   
+}
+
+.kid-card-avatar {
+    width: 100%;
+    height: 100%;
+}
+
+.kid-card-name {
+    font-size: 18px;
+    -unity-font-style: bold;
+    color: #4A4739;
+    margin-bottom: 18px;
+}
+
+.kid-card-actions {
+    width: 100%;
+    align-items: stretch;
+}
+
+/* Cards stack Select/Details vertically and full-width within the card,
+   rather than the fixed pill widths used for landing screen buttons —
+   the card itself defines the available width here. */
+.kid-card-btn {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    font-size: 14px;
+}

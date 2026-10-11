@@ -1,0 +1,16 @@
+.responsible-badge {
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsible-photo {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #D9D2C2;
+    border-width: 2px;
+    border-color: #8A8574;
+    overflow: hidden;
+}

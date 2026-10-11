@@ -1,0 +1,27 @@
+.working-space-content {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* anchors the absolute overlay below */
+}
+
+.working-space-title {
+    font-size: 26px;
+    -unity-font-style: bold;
+    color: #4A4739;
+}
+
+.lock-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(74, 71, 57, 0.55);
+    align-items: center;
+    justify-content: center;
+}
+
+.lock-overlay-button {
+    width: 160px;
+}

@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Template name="KidIdendityBadge" src="project://database/Assets/UIToolkit/Shared/KidIdendityBadge.uxml?fileID=9197481963319205126&amp;guid=b34b6a177cbd64845b03b21e2a92e8e1&amp;type=3#KidIdendityBadge"/>
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <Style src="project://database/Assets/UIToolkit/Settings/Settings.uss?fileID=7433441132597879392&amp;guid=0c7de7a74d545473dad950c09ae79f6b&amp;type=3#Settings"/>
+    <ui:VisualElement name="root" class="screen" style="background-color: rgba(251, 243, 228, 0);">
+        <ui:VisualElement name="header" class="header" style="align-items: center; justify-content: flex-start; align-self: center; flex-direction: row-reverse;">
+            <ui:Instance template="KidIdendityBadge"/>
+            <ui:VisualElement name="row_btns" style="flex-grow: 1; flex-direction: row-reverse; align-items: center; justify-content: flex-end; align-self: center;">
+                <ui:Label text="Settings" class="screen-title"/>
+                <ui:Button name="back-button" class="btn role-icon" style="background-color: rgba(252, 243, 229, 0.85); border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px;">
+                    <ui:VisualElement class="icon-back" style="height: 24px; width: 28px; background-color: rgba(0, 0, 0, 0);"/>
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="settings-body" class="settings-body" style="top: 26%; bottom: 10%;">
+            <ui:VisualElement name="tab-menu" class="tab-menu">
+                <ui:Button name="tab-audio" class="settings-tab-button" style="flex-direction: row; justify-content: space-between; align-self: center;">
+                    <ui:VisualElement class="tab-icon icon-audio" style="height: 31px; width: 28px; background-image: url(&quot;project://database/Assets/art/icons/speaker.png?fileID=2800000&amp;guid=b1c8be7de8d4a4623a6ecc87bc5854b9&amp;type=3#speaker&quot;);"/>
+                    <ui:Label text="Audio" class="tab-label"/>
+                </ui:Button>
+                <ui:Button name="tab-assistance" class="settings-tab-button" style="flex-direction: row; justify-content: space-between; align-items: flex-start; align-self: center;">
+                    <ui:VisualElement class="tab-icon icon-assistance" style="background-image: url(&quot;project://database/Assets/art/icons/assistance.png?fileID=2800000&amp;guid=d18b3eca15e7a4d59b78ad373a2e7b60&amp;type=3#assistance&quot;); height: 29px; width: 8px;"/>
+                    <ui:Label text="Assistance" class="tab-label"/>
+                </ui:Button>
+                <ui:Button name="tab-session" class="settings-tab-button" style="flex-direction: row; justify-content: space-between; align-self: center;">
+                    <ui:VisualElement class="tab-icon icon-session" style="background-image: url(&quot;project://database/Assets/art/icons/Icon_Small_Lock%201.png?fileID=2800000&amp;guid=100334c0fc87c4a9abbb618f9dd36e88&amp;type=3#Icon_Small_Lock 1&quot;); height: 30px; width: 25px;"/>
+                    <ui:Label text="Session" class="tab-label"/>
+                </ui:Button>
+                <ui:Button name="tab-language" class="settings-tab-button" style="flex-direction: row; justify-content: space-between; align-self: center; -unity-text-align: middle-center;">
+                    <ui:VisualElement class="tab-icon icon-language" style="background-image: url(&quot;project://database/Assets/art/icons/language.png?fileID=2800000&amp;guid=fc1c2ffe74b3a4e8f86e09c685fd0e62&amp;type=3#language&quot;); height: 30px; width: 28px;"/>
+                    <ui:Label text="Language" class="tab-label"/>
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="working-space" class="working-space" style="height: 100%; bottom: auto; top: auto;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

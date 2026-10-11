@@ -1,0 +1,31 @@
+.wind-down-meter {
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    padding: 6px 14px;
+}
+
+.pip-row {
+    flex-direction: row;
+    margin-left: 8px;
+}
+
+.wind-down-pip {
+    width: 16px;
+    height: 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+    background-color: #EDE0D0;
+    border-width: 1px;
+    border-color: #C9A876;
+}
+
+.wind-down-pip.filled {
+    background-color: #7F77DD;
+    border-color: #534AB7;
+}
+
+.icon-clock {
+    background-image: url("project://database/Assets/art/icons/clock.svg");
+    -unity-background-image-tint-color: #7F77DD;
+}

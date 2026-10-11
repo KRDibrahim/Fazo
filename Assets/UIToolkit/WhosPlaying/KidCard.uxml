@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <Style src="project://database/Assets/UIToolkit/WhosPlaying/KidCard.uss?fileID=7433441132597879392&amp;guid=a577a958012004490aeed0d423a19243&amp;type=3#KidCard"/>
+    <ui:VisualElement name="kid-card" class="kid-card" style="background-color: rgb(244, 235, 218); width: auto; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px;">
+        <ui:VisualElement name="acount_info" style="flex-grow: 1; padding-top: 0; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; background-color: rgb(252, 243, 229); margin-top: 0; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; align-self: center; justify-content: space-around; align-items: center; width: 146px;">
+            <ui:VisualElement class="kid-card-avatar-frame">
+                <ui:Image name="kid-avatar-image" scale-mode="ScaleToFit" class="kid-card-avatar" style="top: 0;"/>
+            </ui:VisualElement>
+            <ui:Label name="kid-name-label" text="Kid Name" class="kid-card-name" style="height: 11px;"/>
+        </ui:VisualElement>
+        <ui:Button name="kid-settings-button" class="btn role-icon" style="position: absolute; right: 0; top: 0; left: auto; bottom: auto;">
+            <ui:VisualElement class="icon-settings-glyph"/>
+        </ui:Button>
+        <ui:VisualElement class="kid-card-actions" style="width: auto;">
+            <ui:Button name="select-button" text="Select" class="btn role-primary kid-card-btn" style="width: 151px; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;"/>
+            <ui:Button name="details-button" text="Details" class="btn role-secondary kid-card-btn" style="width: auto; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

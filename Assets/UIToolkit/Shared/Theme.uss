@@ -1,0 +1,119 @@
+.btn {
+    border-radius: 26px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    transition-property: scale;
+    transition-duration: 0.1s;
+    border-width: 0;
+    background-color: rgb(252, 243, 229);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.btn:hover {
+    scale: 1.03 1.03;
+}
+
+.btn:active {
+    scale: 0.97 0.97;
+}
+
+.role-primary {
+    background-color: rgb(226, 96, 60);
+    color: rgb(255, 255, 255);
+    height: 52px;
+    padding: 0 32px;
+    font-size: 18px;
+}
+
+.role-secondary {
+    background-color: rgb(127, 119, 221);
+    color: rgb(255, 255, 255);
+    height: 44px;
+    padding: 0 24px;
+    font-size: 15px;
+}
+
+.role-quiet {
+    background-color: transparent;
+    color: rgb(138, 133, 116);
+    height: 36px;
+    padding: 0 16px;
+    font-size: 14px;
+    -unity-font-style: normal;
+}
+
+.role-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: rgba(252, 243, 229, 0.85);
+    border-width: 2px;
+    border-color: rgb(74, 71, 57);
+    padding: 14px;
+    -unity-background-scale-mode: scale-to-fit;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.role-icon:hover {
+    scale: 1.08 1.08;
+}
+
+.icon-home {
+    background-image: url("project://database/Assets/art/icons/house.svg?fileID=7388822144124034973&guid=7529a7f2ac0764a9cabe7a3f088ca26b&type=3#house");
+    -unity-background-image-tint-color: rgb(74, 71, 57);
+}
+
+.icon-back {
+    background-image: url("project://database/Assets/art/icons/arrow-fat-left.svg?fileID=7388822144124034973&guid=20a2d7b79d6b847e4b377e29add5216b&type=3#arrow-fat-left");
+    -unity-background-image-tint-color: rgb(74, 71, 57);
+}
+
+.icon-settings-glyph {
+    width: 26px;
+    height: 26px;
+    background-image: url("project://database/Assets/art/icons/gear-six.svg?fileID=7388822144124034973&guid=bd31fb1c71b124a279c4a6825d608a08&type=3#gear-six");
+    -unity-background-image-tint-color: rgb(74, 71, 57);
+}
+
+.icon-silence {
+    width: 26px;
+    height: 26px;
+    background-image: url("project://database/Assets/art/icons/speaker-low.svg?fileID=7388822144124034973&guid=54d702d41005b4d849ad640b53bbe889&type=3#speaker-low");
+    -unity-background-image-tint-color: rgb(74, 71, 57);
+}
+
+.kid-identity-shape {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    height: 93px;
+    width: 233px;
+}
+
+.kid-avatar-image {
+    height: 73px;
+    width: 79px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.kid-name-text {
+    background-color: rgb(255, 255, 255);
+    -unity-text-align: middle-left;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin: 0;
+}
+
+
+.meter-icon {
+    width: 22px;
+    height: 22px;
+    -unity-background-scale-mode: scale-to-fit;
+}

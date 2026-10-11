@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/core.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Auth.unity
+    guid: 01be1df136cf24ff282b293b9c696cf7
+  - enabled: 1
+    path: Assets/Scenes/SharedUI.unity
+    guid: 9f103f7bfe3c44252826d244c99041b0
+  - enabled: 1
+    path: Assets/Scenes/WhosPlaying.unity
+    guid: a9b8c5187bd6e44f7bc3593823fd6dc5
+  - enabled: 1
+    path: Assets/Scenes/KidDetails.unity
+    guid: f95922bb7d38e4c02aa6ee934ca92e93
+  - enabled: 1
+    path: Assets/Scenes/SectionGate.unity
+    guid: eaee7dbd10a914334be088ca34e6cbc9
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: f0bc4f87462aa46dcac7751c6b40c565
+  - enabled: 1
+    path: Assets/Scenes/DiscoveryMap.unity
+    guid: be44a5e6c0df24954aeb977102a48f09
+  - enabled: 1
+    path: Assets/Scenes/Backdrop.unity
+    guid: db0e65f6a40e84b5b8d8cc667703a207
+  - enabled: 1
+    path: Assets/Scenes/Landing.unity
+    guid: a4325c370c8f34ffaa793dd38c1c8c0e
+  m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

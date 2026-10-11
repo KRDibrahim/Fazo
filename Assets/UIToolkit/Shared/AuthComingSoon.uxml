@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <Style src="project://database/Assets/UIToolkit/Shared/DialogTheme.uss?fileID=7433441132597879392&amp;guid=7f9c4c12ef1df41109a824715092d8a4&amp;type=3#DialogTheme"/>
+    <ui:VisualElement name="dialog-overlay" class="dialog-overlay">
+        <ui:VisualElement name="dialog-card" class="dialog-card fade-target">
+            <ui:Label text="Coming soon!" class="dialog-title"/>
+            <ui:Label text="Account sign-in isn&apos;t ready just yet." name="Label" class="dialog-message"/>
+            <ui:Label name="loading-label" text="Getting things ready..." class="dialog-loading"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

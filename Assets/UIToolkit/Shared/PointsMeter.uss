@@ -1,0 +1,18 @@
+.points-meter {
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    padding: 6px 14px;
+}
+
+.points-value-text {
+    font-size: 18px;
+    -unity-font-style: bold;
+    color: #4A4739;
+    margin-left: 8px;
+}
+
+.icon-points {
+    background-image: url("project://database/Assets/art/icons/coin.svg");
+    -unity-background-image-tint-color: #EFA23D;
+}

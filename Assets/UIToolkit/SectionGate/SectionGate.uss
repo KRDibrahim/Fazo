@@ -1,0 +1,40 @@
+.screen {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.header {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    right: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icon-group {
+    flex-direction: row;
+}
+
+.header-icon-group > .btn {
+    margin-right: 12px;
+}
+
+.meters-row {
+    position: absolute;
+    top: 24px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.meters-row > * {
+    margin: 0 10px;
+}
+
+.section-cards-row {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 140px;
+}

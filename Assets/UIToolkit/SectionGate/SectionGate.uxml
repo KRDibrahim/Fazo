@@ -1,0 +1,28 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PointsMeter" src="project://database/Assets/UIToolkit/Shared/PointsMeter.uxml?fileID=9197481963319205126&amp;guid=1fbb5eb4cd3f2480a832d9603dd94578&amp;type=3#PointsMeter"/>
+    <ui:Template name="SectionCard" src="project://database/Assets/UIToolkit/Shared/SectionCard.uxml?fileID=9197481963319205126&amp;guid=d93e2620613e245bbab6cb007c951d91&amp;type=3#SectionCard"/>
+    <ui:Template name="WindDownMeter" src="project://database/Assets/UIToolkit/Shared/WindDownMeter.uxml?fileID=9197481963319205126&amp;guid=743e122ed9f58486188799e99262e9b3&amp;type=3#WindDownMeter"/>
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <Style src="project://database/Assets/UIToolkit/SectionGate/SectionGate.uss?fileID=7433441132597879392&amp;guid=483130f611d3b4f3887f470c29606f9a&amp;type=3#SectionGate"/>
+    <ui:VisualElement name="root" class="screen" style="background-color: rgba(251, 243, 228, 0); align-self: center; align-items: center; width: 100%; height: 100%;">
+        <ui:VisualElement name="header" class="header">
+            <ui:VisualElement class="header-icon-group">
+                <ui:Button name="back-button" class="btn role-icon" style="background-color: rgba(252, 243, 229, 0.85); border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px;">
+                    <ui:VisualElement class="icon-back" style="height: 24px; width: 28px;"/>
+                </ui:Button>
+                <ui:Button name="silence-button" class="btn role-icon" style="background-color: rgba(252, 243, 229, 0.85); border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px;">
+                    <ui:VisualElement class="icon-silence"/>
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="meters-row" class="meters-row" style="padding-top: 1%; padding-right: 1%; padding-bottom: 1%; padding-left: 1%; height: 57px; top: 0; left: auto; position: relative;">
+                <ui:Instance template="PointsMeter"/>
+                <ui:Instance template="WindDownMeter"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="section-cards-row" class="section-cards-row" style="position: absolute; top: auto; align-items: center; justify-content: space-around; align-self: center; margin-top: 0; bottom: 16%; left: auto; right: auto;">
+            <ui:Instance template="SectionCard" name="card-learn" style="align-self: flex-start;"/>
+            <ui:Instance template="SectionCard" name="card-combine"/>
+            <ui:Instance template="SectionCard" name="card-apply"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

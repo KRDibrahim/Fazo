@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <Style src="project://database/Assets/UIToolkit/Shared/WindDownMeter.uss?fileID=7433441132597879392&amp;guid=b46768dd1c8aa48beb0eef484001ef6f&amp;type=3#WindDownMeter"/>
+    <ui:VisualElement name="wind-down-meter" class="wind-down-meter" style="width: 200px; background-color: rgb(251, 243, 228); border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px; -unity-background-image-tint-color: rgb(255, 255, 255); background-size: 200px 100%; height: auto; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+        <ui:VisualElement name="wind-down-icon" class="meter-icon icon-clock" style="background-image: url(&quot;project://database/Assets/art/icons/Icon_Small_Lock%201.png?fileID=2800000&amp;guid=100334c0fc87c4a9abbb618f9dd36e88&amp;type=3#Icon_Small_Lock 1&quot;); -unity-background-image-tint-color: rgb(255, 255, 255); width: 40px; height: 40px;"/>
+        <ui:VisualElement name="pip-row" class="pip-row">
+            <ui:VisualElement name="pip-0" class="wind-down-pip filled"/>
+            <ui:VisualElement name="pip-1" class="wind-down-pip filled"/>
+            <ui:VisualElement name="pip-2" class="wind-down-pip filled"/>
+            <ui:VisualElement name="pip-3" class="wind-down-pip filled"/>
+            <ui:VisualElement name="pip-4" class="wind-down-pip filled"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

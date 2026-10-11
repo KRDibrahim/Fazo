@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <Style src="project://database/Assets/UIToolkit/Settings/Components/WorkingSpacePlaceholder.uss?fileID=7433441132597879392&amp;guid=1c2bb59973346485f872de7554c6b7a4&amp;type=3#WorkingSpacePlaceholder"/>
+    <ui:VisualElement name="working-space-content" class="working-space-content">
+        <ui:Label name="working-space-title" text="Audio Settings" class="working-space-title"/>
+    </ui:VisualElement>
+</ui:UXML>

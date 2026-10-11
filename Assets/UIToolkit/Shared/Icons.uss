@@ -1,0 +1,47 @@
+/* ============================================================
+   Icons.uss — icon sizing and identity classes only.
+   Pair .icon-base (sizing/shared rules) with one specific
+   .icon-* class (which image to show) on the same element.
+   Import this anywhere an icon is needed, alongside Theme.uss.
+   ============================================================ */
+
+.icon-base {
+    width: 20px;
+    height: 20px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.icon-audio {
+    background-image: url("project://database/Assets/Art/icons/speaker-low.svg");
+    -unity-background-image-tint-color: #4A4739;
+}
+
+.icon-assistance {
+    background-image: url("project://database/Assets/Art/icons/question-mark.svg");
+    -unity-background-image-tint-color: #4A4739;
+}
+
+.icon-session {
+    background-image: url("project://database/Assets/Art/icons/lock.svg");
+    -unity-background-image-tint-color: #4A4739;
+}
+
+.icon-language {
+    background-image: url("project://database/Assets/Art/icons/lock.svg");
+    -unity-background-image-tint-color: #4A4739;
+}
+
+.icon-back {
+    background-image: url("project://database/Assets/Art/icons/arrow-fat-left.svg");
+    -unity-background-image-tint-color: #4A4739;
+}
+
+.icon-settings {
+    background-image: url("project://database/Assets/Art/icons/gear-six.svg");
+    -unity-background-image-tint-color: #4A4739;
+}
+
+.icon-home {
+    background-image: url("project://database/Assets/Art/icons/house.svg");
+    -unity-background-image-tint-color: #4A4739;
+}

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <Style src="project://database/Assets/UIToolkit/Settings/Components/AudioSettings.uss?fileID=7433441132597879392&amp;guid=9742bbf27f6fe4e6fbf40183f89e132b&amp;type=3#AudioSettings"/>
+    <ui:VisualElement name="working-space-content" class="working-space-content">
+        <ui:Label text="Language Settings" class="panel-heading"/>
+        <ui:VisualElement class="setting-row" style="justify-content: space-between; align-items: center; align-self: center; width: auto; margin-bottom: 0;">
+            <ui:Label text="App language" class="setting-label"/>
+            <ui:VisualElement class="language-options" style="flex-direction: row; width: auto;">
+                <ui:Button name="language-english" text="English" class="btn stepper-option active"/>
+                <ui:Button name="language-arabic" text="Arabic" class="btn stepper-option" style="-unity-text-generator: advanced; -unity-text-auto-size: none;"/>
+                <ui:Button name="language-arabic" text="French" class="btn stepper-option" style="-unity-text-generator: advanced; -unity-text-auto-size: none;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

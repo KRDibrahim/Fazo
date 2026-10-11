@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Template name="ResponsibleProfileBadge" src="project://database/Assets/UIToolkit/KidDetails/components/ResponsibleProfileBadge.uxml?fileID=9197481963319205126&amp;guid=2ebca880830034ea6aa96a59935ff494&amp;type=3#ResponsibleProfileBadge"/>
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <Style src="project://database/Assets/UIToolkit/WhosPlaying/whosPlaying.uss?fileID=7433441132597879392&amp;guid=dd8767c41b77140f2a7a4bdf0eceb9ea&amp;type=3#whosPlaying"/>
+    <ui:VisualElement name="root" class="screen" style="background-color: rgba(251, 243, 228, 0); flex-direction: column; align-items: center; justify-content: center; align-content: center;">
+        <ui:VisualElement name="header" class="header">
+            <ui:Label text="Who&apos;s playing?" class="screen-title" style="font-size: 30px;"/>
+            <ui:VisualElement name="header-right-group" class="header-right-group" style="flex-direction: row-reverse;">
+                <ui:Instance template="ResponsibleProfileBadge" name="responsible-badge-instance"/>
+                <ui:Button name="add-kid-button" text="+ Add new kid" class="btn role-secondary"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:ScrollView name="kids-container" mode="Horizontal" horizontal-scroller-visibility="Hidden" class="kids-container" style="border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; height: 60%; justify-content: center; top: 20%;">
+            <ui:VisualElement name="empty-state" class="empty-state" style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                <ui:Label text="No kids yet" class="empty-state-title"/>
+                <ui:Label text="Tap &quot;Add new kid&quot; to get started" class="empty-state-subtitle"/>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

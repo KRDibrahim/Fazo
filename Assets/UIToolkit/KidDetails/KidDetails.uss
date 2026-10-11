@@ -1,0 +1,58 @@
+.screen {
+    flex-grow: 1;
+}
+
+.header {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    right: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.screen-title {
+    font-size: 22px;
+    -unity-font-style: bold;
+    color: #4A4739;
+}
+
+.details-body {
+    position: absolute;
+    top: 100px;
+    left: 24px;
+    right: 24px;
+    bottom: 24px;
+    flex-direction: row;
+}
+
+.left-column {
+    width: 320px;
+}
+
+.kid-card-slot {
+    margin-bottom: 20px;
+}
+
+.spider-chart-slot {
+    flex-grow: 1;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.right-column {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.domain-tab-row {
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+.activity-section {
+    flex-grow: 1;
+    background-color: transparent;
+    padding: 0;
+}

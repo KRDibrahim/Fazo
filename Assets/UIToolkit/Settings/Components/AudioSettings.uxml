@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss" />
+    <Style src="project://database/Assets/UIToolkit/Settings/Components/AudioSettings.uss" />
+
+    <ui:VisualElement name="working-space-content" class="working-space-content">
+
+        <ui:Label text="Audio Settings" class="panel-heading" />
+
+        <ui:VisualElement class="setting-row">
+            <ui:Label text="Background Music" class="setting-label" />
+            <ui:Slider name="music-volume-slider" low-value="0" high-value="1" value="0.8" class="setting-slider" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="setting-row">
+            <ui:Label text="SFX" class="setting-label" />
+            <ui:Slider name="sfx-volume-slider" low-value="0" high-value="1" value="0.8" class="setting-slider" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="setting-row">
+            <ui:Label text="Speech Enable" class="setting-label" />
+            <ui:Toggle name="speech-enable-toggle" value="true" class="setting-toggle" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="setting-row">
+            <ui:Label text="Speech" class="setting-label" />
+            <ui:Slider name="speech-volume-slider" low-value="0" high-value="1" value="0.9" class="setting-slider" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

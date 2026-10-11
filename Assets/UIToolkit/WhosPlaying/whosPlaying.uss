@@ -1,0 +1,70 @@
+.screen {
+    flex-grow: 1;
+}
+
+/* --- Header --- */
+.header {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    right: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.screen-title {
+    font-size: 22px;
+    -unity-font-style: bold;
+    color: #4A4739;
+}
+
+.header-right-group {
+    flex-direction: row;
+    align-items: center;
+}
+
+.responsible-card-placeholder {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background-color: #D9D2C2;
+    border-width: 2px;
+    border-color: #8A8574;
+    margin-left: 16px;
+}
+.kids-container {
+    height: 400px;
+    width: 80%;
+    background-color: #d9d2c26a;
+    position: absolute;
+    top: 214px;
+    left: 10%;
+    right: 10%;
+}
+
+.kids-container .unity-scroll-view__content-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+}
+
+.empty-state {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-state-title {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: #4A4739;
+    margin-bottom: 8px;
+}
+
+.empty-state-subtitle {
+    font-size: 15px;
+    color: #8A8574;
+}

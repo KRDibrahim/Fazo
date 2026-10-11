@@ -1,0 +1,51 @@
+.dialog-overlay {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background-color: rgba(74, 71, 57, 0.35); /* dim backdrop behind the card */
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog-card {
+    background-color: #FBF3E4;           /* matches your existing warm sky tone */
+    border-width: 3px;
+    border-color: #E1D9C4;               /* same border tone as your auth-card */
+    border-radius: 24px;
+    padding: 36px 44px;
+    align-items: center;
+    width: 380px;
+}
+
+.dialog-title {
+    font-size: 24px;
+    -unity-font-style: bold;
+    color: #534AB7;                       /* your brand purple, matches FAZO title */
+    margin-bottom: 12px;
+}
+
+.dialog-message {
+    font-size: 15px;
+    color: #4A4739;
+    -unity-text-align: middle-center;
+    margin-bottom: 20px;
+    white-space: normal;
+}
+
+.dialog-loading {
+    font-size: 13px;
+    color: #8A8574;
+}
+
+/* Pop-in animation — fade + gentle scale, same restrained transition
+   language used everywhere else in this project */
+.fade-target {
+    opacity: 0;
+    scale: 0.9 0.9;
+    transition-property: opacity, scale;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+}
+.fade-target.visible {
+    opacity: 1;
+    scale: 1 1;
+}

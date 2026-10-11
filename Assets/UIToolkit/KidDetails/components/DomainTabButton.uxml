@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/KidDetails/components/DomainTabButton.uss?fileID=7433441132597879392&amp;guid=4a8af927619784e82a15eb3131276cbc&amp;type=3#DomainTabButton"/>
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <ui:Button name="domain-tab-button" class="domain-tab-button">
+        <ui:VisualElement name="domain-tab-icon" class="domain-tab-icon"/>
+        <ui:Label name="domain-tab-label" text="Domain" class="domain-tab-label"/>
+    </ui:Button>
+</ui:UXML>

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/Shared/SectionCard.uss?fileID=7433441132597879392&amp;guid=c3cf8433d04a54261a6785551669baa4&amp;type=3#SectionCard"/>
+    <Style src="project://database/Assets/UIToolkit/Shared/Theme.uss?fileID=7433441132597879392&amp;guid=d884af507cd314bcd9c5583b17f71be5&amp;type=3#Theme"/>
+    <ui:VisualElement name="section-card" class="section-card" style="background-color: rgb(254, 243, 199); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); width: 300px; height: auto;">
+        <ui:VisualElement name="lock-badge" class="lock-badge" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;">
+            <ui:VisualElement class="icon-lock-small"/>
+        </ui:VisualElement>
+        <ui:Image name="robot-art" scale-mode="ScaleToFit" class="section-robot-art" style="width: 150px; height: 150px;"/>
+        <ui:Label name="section-title" text="Learn" class="section-title"/>
+        <ui:Label name="section-subtitle" text="Discover new things!" class="section-subtitle"/>
+        <ui:Label name="unlock-requirement-label" text="Reach 300 points to unlock" class="unlock-requirement"/>
+        <ui:Button name="unlock-button" text="Unlock" class="btn role-primary section-unlock-btn"/>
+        <ui:VisualElement name="section-progress-track" class="section-progress-track">
+            <ui:VisualElement name="section-progress-fill" class="section-progress-fill"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

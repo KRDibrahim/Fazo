@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/KidDetails/components/ResponsibleProfileBadge.uss?fileID=7433441132597879392&amp;guid=15deb3991ada04df683d3c2eea3cf6a6&amp;type=3#ResponsibleProfileBadge"/>
+    <ui:VisualElement name="responsible-badge" class="responsible-badge">
+        <ui:Image name="responsible-photo" scale-mode="ScaleAndCrop" class="responsible-photo" />
+    </ui:VisualElement>
+</ui:UXML>

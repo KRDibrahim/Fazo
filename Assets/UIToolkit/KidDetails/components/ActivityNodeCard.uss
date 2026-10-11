@@ -1,0 +1,78 @@
+.activity-node-card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-color: #EDE0D0;
+}
+
+.card-header {
+    flex-direction: row;
+    align-items: center;
+}
+
+.activity-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: #EEF1FA;
+    margin-right: 12px;
+}
+
+.activity-name-text {
+    font-size: 15px;
+    -unity-font-style: bold;
+    color: #4A4739;
+    flex-grow: 1;
+}
+
+.metric-text {
+    font-size: 13px;
+    color: #8A8574;
+    margin-right: 14px;
+}
+
+.support-indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #7FB84A;
+    margin-right: 14px;
+}
+
+.focus-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #7FB84A;
+    margin-right: 14px;
+}
+
+.expand-chevron {
+    width: 16px;
+    height: 16px;
+}
+
+.card-expanded-content {
+    display: none;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top-width: 1px;
+    border-top-color: #EDE0D0;
+}
+
+.chart-placeholder-slot {
+    height: 140px;
+    background-color: #EEF1FA;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.expanded-caption-text {
+    font-size: 12px;
+    color: #8A8574;
+    margin-top: 8px;
+    -unity-text-align: middle-center;
+}

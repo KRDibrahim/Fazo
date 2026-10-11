@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cfe32f9206842af9591fe89b328ebc, type: 3}
+  m_Name: CurrentKid
+  m_EditorClassIdentifier: Assembly-CSharp::CurrentKidSO
+  SelectedKid:
+    Id: e42181c3-57b6-4598-b81b-f453f5b50382
+    Name: Kid 3
+    Avatar: {fileID: 682957955418335472, guid: cfebfc352d2654d549987c82c2ab271c, type: 3}
