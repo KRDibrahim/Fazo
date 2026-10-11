@@ -1,4 +1,5 @@
 <img width="1280" height="590" alt="WhatsApp Image 2026-10-04 at 18 39 02" src="https://github.com/user-attachments/assets/6c16cac5-9ede-414a-afdd-054a23ecc5d8" />
+
 # FAZO
 
 FAZO is a mobile game for autistic children, built with Unity for Android tablets and phones. It presents short learning activities in a fixed, predictable format, with no failure states, no time pressure and a calm visual and sound design.
